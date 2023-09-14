@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+nav .menu .logo{
+justify-content: space-around;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 10px;
+}
+
+
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  
+}
+.menu .logo a img{
+  max-width:28px;
+    height:auto;
+  border-radius: 4px; 
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+
+
+.container{
+width:450px;
+background: #fff;
+padding-top: 90px;
+margin: 0 auto;
+box-sizing: 0 0 5px rgba(0,0,0,0.5);
+}
+.container p{
+line-height: 1.4;
+text-align: justify;
+}
+#check {
+display: none;
+}
+
+.container span{
+color:#7c61f2;
+
+}
+.content{
+margin-top: 9px;
+color: #913c36; 
+display: none;
+}
+
+label{
+display: inline-block;
+margin-top: 15px;
+color: #34b353;
+text-decoration: underline;
+cursor: pointer;
+font-weight: 600;
+}
+
+#check:checked ~ .content {
+display: block;
+}
+
+#check:checked ~ label{
+visibility: hidden;
+}
+
+#check:checked ~ label:after{
+content: "Show less";
+display: block;
+visibility: visible;
+  
+}
+
+
+.container2{
+width:450px;
+background: #fff;
+padding-top: 90px;
+margin: 0 auto;
+box-sizing: 0 0 5px rgba(0,0,0,0.5);
+}
+.container2 p{
+line-height: 1.4;
+text-align: justify;
+}
+#check2 {
+display: none;
+}
+
+.container2 span{
+color:#7c61f2;
+
+}
+.content2{
+margin-top: 9px;
+color: #913c36; 
+display: none;
+}
+
+label{
+display: inline-block;
+margin-top: 15px;
+color: #34b353;
+text-decoration: underline;
+cursor: pointer;
+font-weight: 600;
+}
+
+#check2:checked ~ .content2 {
+display: block;
+}
+
+#check2:checked ~ label{
+visibility: hidden;
+}
+
+#check2:checked ~ label:after{
+content: "Show less";
+display: block;
+visibility: visible;
+  
+}
+
+
+
+.container3{
+width:450px;
+background: #fff;
+padding-top: 90px;
+margin: 0 auto;
+box-sizing: 0 0 5px rgba(0,0,0,0.5);
+}
+.container3 p{
+line-height: 1.4;
+text-align: justify;
+}
+#check3 {
+display: none;
+}
+
+.container3 span{
+color:#7c61f2;
+
+}
+.content3{
+margin-top: 9px;
+color: #913c36; 
+display: none;
+}
+
+label{
+display: inline-block;
+margin-top: 15px;
+color: #34b353;
+text-decoration: underline;
+cursor: pointer;
+font-weight: 600;
+}
+
+#check3:checked ~ .content3 {
+display: block;
+}
+
+#check3:checked ~ label{
+visibility: hidden;
+}
+
+#check3:checked ~ label:after{
+content: "Show less";
+display: block;
+visibility: visible;
+  
+}
+
+
+
+.container4{
+width:450px;
+background: #fff;
+padding-top: 90px;
+margin: 0 auto;
+box-sizing: 0 0 5px rgba(0,0,0,0.5);
+}
+.container4 p{
+line-height: 1.4;
+text-align: justify;
+}
+#check4 {
+display: none;
+}
+
+.container4 span{
+color:#7c61f2;
+
+}
+.content4{
+margin-top: 9px;
+color: #913c36; 
+display: none;
+}
+
+label{
+display: inline-block;
+margin-top: 15px;
+color: #34b353;
+text-decoration: underline;
+cursor: pointer;
+font-weight: 600;
+}
+
+#check4:checked ~ .content4 {
+display: block;
+}
+
+#check4:checked ~ label{
+visibility: hidden;
+}
+
+#check4:checked ~ label:after{
+content: "Show less";
+display: block;
+visibility: visible;
+  
+}
+
+
+
+.container5{
+width:450px;
+background: #fff;
+padding-top: 90px;
+margin: 0 auto;
+box-sizing: 0 0 5px rgba(0,0,0,0.5);
+}
+.container5 p{
+line-height: 1.4;
+text-align: justify;
+}
+#check5 {
+display: none;
+}
+
+.container5 span{
+color:#7c61f2;
+
+}
+.content5{
+margin-top: 9px;
+color: #913c36; 
+display: none;
+}
+
+label{
+display: inline-block;
+margin-top: 15px;
+color: #34b353;
+text-decoration: underline;
+cursor: pointer;
+font-weight: 600;
+}
+
+#check5:checked ~ .content5 {
+display: block;
+}
+
+#check5:checked ~ label{
+visibility: hidden;
+}
+
+#check5:checked ~ label:after{
+content: "Show less";
+display: block;
+visibility: visible;
+  
+}
+
+
+
