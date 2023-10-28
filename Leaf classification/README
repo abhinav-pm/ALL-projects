@@ -1,1 +1,8 @@
-
+The steps involved in this CNN based classification model are
+1. Load Dataset
+2. Preprocessing
+4. Split in to Train, Validation and Test data
+5. Building CNN model
+6. Training CNN
+7. Plotting nodel performance
+8. Model evaluation
